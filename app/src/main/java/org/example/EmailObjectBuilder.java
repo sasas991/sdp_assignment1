@@ -33,7 +33,7 @@ public class EmailObjectBuilder implements EmailBuilder {
 
     public Email getResult() {
         if (from==null || to==null) {
-            throw new IllegalStateException("From and To are required");
+            throw new IllegalStateException("from and to are required");
         }
 
         return new Email(from, to, subject, body);

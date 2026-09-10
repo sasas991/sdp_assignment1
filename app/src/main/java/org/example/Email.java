@@ -32,6 +32,6 @@ public class Email {
 
     @Override
     public String toString() {
-        return "Email[from='" + from + "', to='" + to + "', subject='" + subject + "', body='" + body + "']";
+        return "email[from='" + from + "', to='" + to + "', subject='" + subject + "', body='" + body + "']";
     }
 }
