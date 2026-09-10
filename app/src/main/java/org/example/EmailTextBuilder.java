@@ -6,19 +6,19 @@ public class EmailTextBuilder implements EmailBuilder {
 
     @Override
     public EmailTextBuilder setFrom(String from) {
-        text.append("From: ").append(from).append("\n");
+        text.append("from: ").append(from).append("\n");
         return this;
     }
 
     @Override
     public EmailTextBuilder setTo(String to) {
-        text.append("To: ").append(to).append("\n");
+        text.append("to: ").append(to).append("\n");
         return this;
     }
 
     @Override
     public EmailTextBuilder setSubject(String subject) {
-        text.append("Subject: ").append(subject).append("\n");
+        text.append("subject: ").append(subject).append("\n");
         return this;
     }
 
